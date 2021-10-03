@@ -1,0 +1,107 @@
+[
+    {
+        "id": "C001",
+        "title": "The Python Course: build web application",
+        "duration": "2h 30m",
+        "category": "Backend",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Claire Robertson",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-4.jpg",
+        "price": 1000,
+        "type": "featured",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg"
+    },
+    {
+        "id": "C002",
+        "title": "GraphQL: introduction to graphQL for beginners",
+        "duration": "2h 46m",
+        "category": "Backend",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Ted Hawkins",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-2.jpg",
+        "price": 2000,
+        "type": "featured",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-graphql.jpg"
+    },
+    {
+        "id": "C003",
+        "title": "Angular - the complete guide for beginner",
+        "duration": "1h 30m",
+        "category": "Fontend",
+        "rating": "3.5",
+        "enrolled": 2500,
+        "instructor": "Juanita Bell",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-3.jpg",
+        "price": 1000,
+        "type": "featured",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-angular.jpg"
+    },
+    {
+        "id": "C004",
+        "title": "Wordpress: complete WordPress theme & plugin",
+        "duration": "2h 30m",
+        "category": "Fontend",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Alexa Bekar",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-8.jpg",
+        "price": 1000,
+        "type": "featured",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-wordpress.jpg"
+    },
+    {
+        "id": "C005",
+        "title": "The Python Course: build web application",
+        "duration": "2h 30m",
+        "category": "Design",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Claire Robertson",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-4.jpg",
+        "price": 1000,
+        "type": "common",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg"
+    },
+    {
+        "id": "C006",
+        "title": "The Python Course: build web application",
+        "duration": "2h 30m",
+        "category": "Testing",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Claire Robertson",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-4.jpg",
+        "price": 1000,
+        "type": "common",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg"
+    },
+    {
+        "id": "C007",
+        "title": "The Python Course: build web application",
+        "duration": "2h 30m",
+        "category": "Marketing",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Claire Robertson",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-4.jpg",
+        "price": 1000,
+        "type": "common",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg"
+    },
+    {
+        "id": "C008",
+        "title": "The Python Course: build web application",
+        "duration": "2h 30m",
+        "category": "Backend",
+        "rating": "4.5",
+        "enrolled": 2500,
+        "instructor": "Claire Robertson",
+        "photo": "https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-4.jpg",
+        "price": 1000,
+        "type": "common",
+        "img": "https://codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg"
+    }
+   
+]
