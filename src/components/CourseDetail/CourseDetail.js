@@ -66,7 +66,7 @@ const CourseDetail = () => {
                             <Button
                                 variant="success"
                                 style={{ backgroundColor: '#D32F2F', border: 0 }}
-                            >Add to cart</Button>
+                            >Enroll Now</Button>
                         </Card.Body>
                     </Card>
                 </Col>
