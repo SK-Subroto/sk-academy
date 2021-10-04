@@ -2,8 +2,16 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Person } from 'react-bootstrap-icons';
 import { NavLink } from 'react-router-dom';
+import { useHistory } from 'react-router';
 
 const Header = () => {
+    
+    const history = useHistory();
+
+    const handleHomePage = () => {
+        history.push('./home');
+    }
+
     const activeStyle = {
         fontWeight: "bold",
         color: "#D32F2F",
@@ -12,7 +20,7 @@ const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand onClick={handleHomePage} style={{cursor: 'pointer'}}>
                     <img
                         alt=""
                         src="https://www.pngitem.com/pimgs/m/292-2923379_undergraduate-education-logo-for-education-png-transparent-png.png"

@@ -6,12 +6,16 @@ import StarRatings from 'react-star-ratings';
 import useCourses from '../../hooks/useCourses';
 
 const CourseDetail = () => {
+
+    // router key
     const { courseId } = useParams();
-    const [course, setCourse] = useState({})
+    const [course, setCourse] = useState({});
+
+    // custom hook 
     const [courses] = useCourses();
 
     useEffect(() => {
-        // console.log(courses)
+        // find single course
         setCourse(courses.find(c => c.id === courseId));
     }, [courses]);
 
@@ -45,17 +49,16 @@ const CourseDetail = () => {
                     </div>
                 </Col>
                 <Col lg="4">
-                    <Card className="h-100">
+                    <Card className="">
                         <Card.Img variant="top" src={course?.img}  />
-                        <Card.Body className="text-center">
-                            <h4>$ {course?.price}</h4>
+                        <Card.Body className="text-center d-flex justify-content-between">
+                            <h4 className="text-secondary">Price: ${course?.price}</h4>
                             <Button 
                                 variant="success" 
                                 style={{ backgroundColor: '#D32F2F', border: 0 }}
                             >Add to cart</Button>
                         </Card.Body>
                     </Card>
-                    {/* <img style={{height: 250, width: 300, float: 'right'}} src={course?.img} alt="" /> */}
                 </Col>
             </Row>
         </Container>

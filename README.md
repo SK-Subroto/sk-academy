@@ -7,6 +7,6 @@ https://sk-academy.netlify.app/
 
 ### About this project
 
-- This project is educational site.
-- Enrol in available course.
-- Choose course
+- This is an educational site.
+- You can choose and enroll in available course.
+- User can see the details of every course (rating, enroll etc).

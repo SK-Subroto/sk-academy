@@ -14,6 +14,8 @@ const Courses = () => {
         let uniqueCategory = [];
         let uniqueInstructor = [];
 
+        // filter unique course category and instructor
+
         for (let d of data){
             if (uniqueCategory.indexOf(d.category) === -1){
                 uniqueCategory.push(d.category);
@@ -28,6 +30,7 @@ const Courses = () => {
         setInstructors(uniqueInstructor);
     }
 
+    // fetch course
     useEffect(() => {
         fetch('../courses.json')
             .then(res => res.json())
@@ -83,13 +86,12 @@ const Courses = () => {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
-                    
-                    
-                    
+ 
                 </Col>
                 <Col lg="9">
                     <h2 className="text-secondary">Total Course {courses.length}</h2>
                     <Row xs={1} md={1} lg={3} className="g-4">
+                        {/* looping course  */}
                         {
                             courses.map(course => <Course key={course.id} course={course} />)
                         }
