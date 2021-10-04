@@ -3,7 +3,8 @@ import { Container, Form, Button } from 'react-bootstrap';
 
 const Login = () => {
     return (
-        <Container className="w-25 border border-primary rounded p-5 mt-5">
+        <Container className="w-25 p-5 mt-5 alert alert-danger">
+            <h3 className="text-center mb-4">Login</h3>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -20,7 +21,7 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="success" type="submit" style={{ backgroundColor: '#D32F2F', border: 0}}>
                     Submit
                 </Button>
             </Form>

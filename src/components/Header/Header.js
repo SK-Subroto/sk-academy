@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { People, Person } from 'react-bootstrap-icons';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Person } from 'react-bootstrap-icons';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
-        color: "#157347",
-        borderBottom: "solid 2px #157347"
+        color: "#D32F2F",
+        borderBottom: "solid 2px #D32F2F"
     }
     return (
         <Navbar bg="light" expand="lg">
@@ -20,7 +20,7 @@ const Header = () => {
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    SK Academy
+                    <span className="fw-bold" style={{ color: 'goldenrod'}}>SK Academy</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
