@@ -9,7 +9,7 @@ const Header = () => {
     const history = useHistory();
 
     const handleHomePage = () => {
-        history.push('./home');
+        history.push('/home');
     }
 
     const activeStyle = {
